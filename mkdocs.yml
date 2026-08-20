@@ -28,6 +28,7 @@ theme:
 
 nav:
   - Home: index.md
+
   - Module 1:
       - Overview: module-1/index.md
       - Interactive Lab: module-1/lab.md
@@ -35,6 +36,7 @@ nav:
       - Instructor Guide: module-1/instructor-guide.md
       - Case Study: module-1/case-study.md
       - Rubric: module-1/rubric.md
+
   - Module 2:
       - Overview: module-2/index.md
       - Research Design Lab: module-2/lab.md
@@ -42,6 +44,7 @@ nav:
       - Instructor Guide: module-2/instructor-guide.md
       - Case Study: module-2/case-study.md
       - Rubric: module-2/rubric.md
+
   - Module 3:
       - Overview: module-3/index.md
       - Utility Journey Lab: module-3/lab.md
@@ -51,19 +54,25 @@ nav:
       - Case Study: module-3/case-study.md
       - Rubric: module-3/rubric.md
 
+  - Class Research Hub: research-hub/index.md
+
 extra_css:
   - assets/css/extra.css
   - assets/css/print.css
   - assets/css/module2.css
   - assets/css/module3.css
+  - assets/css/world-class.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
+  - assets/js/lab-core.js
   - assets/js/module1.js
   - assets/js/print-report-v2.js
   - assets/js/module2.js
   - assets/js/module3.js
   - assets/js/module3-value-construction.js
+  - assets/js/module-upgrades.js
+  - assets/js/research-hub.js
 
 markdown_extensions:
   - admonition
