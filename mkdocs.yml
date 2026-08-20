@@ -1,9 +1,9 @@
 site_name: ECO 412 | Behavioral Economics Lab
 site_description: Interactive behavioral economics laboratories for ECO 412
 site_author: Zachary A. Smith
-site_url: https://YOUR-GITHUB-USERNAME.github.io/eco412-behavioral-economics/
-repo_name: YOUR-GITHUB-USERNAME/eco412-behavioral-economics
-repo_url: https://github.com/YOUR-GITHUB-USERNAME/eco412-behavioral-economics
+site_url: https://Prof-Smith.github.io/ECO412/
+repo_name: Prof-Smith/ECO412
+repo_url: https://github.com/Prof-Smith/ECO412
 
 theme:
   name: material
