@@ -1,0 +1,21 @@
+.print-only{display:none}
+@page{size:letter landscape;margin:.38in}
+@media print{
+ html,body{background:#fff!important} body{font-size:9.5pt;color:#15213b!important}
+ .md-header,.md-tabs,.md-sidebar,.md-footer,.md-content__button,.action-row,
+ .progress-shell,.status-banner,.lab-intro,.lab-station:not(.dashboard-card),
+ .dashboard-card+*,#lab-app+h2,#lab-app+h2~*{display:none!important}
+ .md-main,.md-main__inner,.md-content,.md-content__inner{display:block!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
+ .md-content__inner:before{display:none!important}
+ .dashboard-card{display:grid!important;grid-template-columns:43% 57%;grid-template-rows:auto 1fr;gap:.08in .18in;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important;margin:0!important;break-inside:avoid;page-break-inside:avoid}
+ .dashboard-card>.eyebrow,.dashboard-card>h2{display:none!important}
+ #profile-summary{grid-column:1/-1;margin:0 0 .04in;padding:.08in .12in;background:#f5f7fb!important;border-left:4px solid #f2a900;font-size:9.5pt}
+ #profile-chart{grid-column:1;grid-row:2;width:100%!important;height:5.1in!important;min-height:0!important;margin:0!important;overflow:visible!important}
+ #profile-chart .plot-container,#profile-chart .svg-container,#profile-chart svg{width:100%!important;height:5.1in!important;overflow:visible!important}
+ #score-cards{grid-column:2;grid-row:2;display:grid!important;grid-template-columns:repeat(2,1fr)!important;grid-auto-rows:1fr;gap:.09in!important;align-content:stretch}
+ .score-card{display:flex!important;flex-direction:column;justify-content:center;min-height:0!important;padding:.1in .14in!important;border:1px solid #d8e1ef!important;border-radius:10px!important;box-shadow:none!important;break-inside:avoid}
+ .score-card:last-child{grid-column:1/-1}
+ .score-number{font-size:22pt!important;line-height:1;color:#2f6fed!important}
+ .score-label{font-size:7.3pt!important;line-height:1.15;margin-top:.04in;color:#52637d!important}
+ *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+}
