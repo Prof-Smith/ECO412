@@ -35,16 +35,24 @@ nav:
       - Instructor Guide: module-1/instructor-guide.md
       - Case Study: module-1/case-study.md
       - Rubric: module-1/rubric.md
+  - Module 2:
+      - Overview: module-2/index.md
+      - Research Design Lab: module-2/lab.md
+      - Student Guide: module-2/student-guide.md
+      - Instructor Guide: module-2/instructor-guide.md
+      - Case Study: module-2/case-study.md
+      - Rubric: module-2/rubric.md
 
 extra_css:
   - assets/css/extra.css
   - assets/css/print.css
+  - assets/css/module2.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
   - assets/js/module1.js
-  - assets/js/print-fix.js
-  - assets/js/print-report.js
+  - assets/js/print-report-v2.js
+  - assets/js/module2.js
 
 markdown_extensions:
   - admonition
