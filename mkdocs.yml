@@ -42,9 +42,10 @@ nav:
       - Instructor Guide: module-2/instructor-guide.md
       - Case Study: module-2/case-study.md
       - Rubric: module-2/rubric.md
-    - Module 3:
+  - Module 3:
       - Overview: module-3/index.md
       - Utility Journey Lab: module-3/lab.md
+      - Value Construction Lab: module-3/value-construction.md
       - Student Guide: module-3/student-guide.md
       - Instructor Guide: module-3/instructor-guide.md
       - Case Study: module-3/case-study.md
@@ -62,6 +63,7 @@ extra_javascript:
   - assets/js/print-report-v2.js
   - assets/js/module2.js
   - assets/js/module3.js
+  - assets/js/module3-value-construction.js
 
 markdown_extensions:
   - admonition
