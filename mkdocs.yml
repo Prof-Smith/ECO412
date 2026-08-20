@@ -72,6 +72,7 @@ extra_css:
   - assets/css/site-polish.css
   - assets/css/experience-v2.css
   - assets/css/field-studies.css
+  - assets/css/field-study-integration.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -88,6 +89,7 @@ extra_javascript:
   - assets/js/site-polish.js
   - assets/js/experience-v2.js
   - assets/js/field-studies.js
+  - assets/js/field-study-integration.js
 
 markdown_extensions:
   - admonition
