@@ -1,0 +1,6 @@
+1. Upload docs/assets/js/print-report.js to the same path in the GitHub repository.
+2. In mkdocs.yml, add this final line under extra_javascript:
+   - assets/js/print-report.js
+3. Keep it AFTER assets/js/module1.js and after any earlier print-fix.js line.
+4. Commit to main. The GitHub Pages workflow will redeploy.
+5. Use the existing Print / save PDF button. It now opens a purpose-built one-page report.
