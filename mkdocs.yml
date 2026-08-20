@@ -64,6 +64,7 @@ extra_css:
   - assets/css/world-class.css
   - assets/css/analysis-upgrade.css
   - assets/css/site-polish.css
+  - assets/css/experience-v2.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -78,6 +79,7 @@ extra_javascript:
   - assets/js/research-hub-v2.js
   - assets/js/content-sanitizer.js
   - assets/js/site-polish.js
+  - assets/js/experience-v2.js
 
 markdown_extensions:
   - admonition
