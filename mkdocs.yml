@@ -44,6 +44,7 @@ extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
   - assets/js/module1.js
   - assets/js/print-fix.js
+  - assets/js/print-report.js
 
 markdown_extensions:
   - admonition
