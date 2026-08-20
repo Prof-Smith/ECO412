@@ -54,6 +54,12 @@ nav:
       - Case Study: module-3/case-study.md
       - Rubric: module-3/rubric.md
 
+  - Field Studies:
+      - Overview: field-studies/index.md
+      - Module 1 Field Study: field-studies/module-1.md
+      - Module 2 Field Study: field-studies/module-2.md
+      - Module 3 Field Study: field-studies/module-3.md
+
   - Class Research Hub: research-hub/index.md
 
 extra_css:
@@ -65,6 +71,7 @@ extra_css:
   - assets/css/analysis-upgrade.css
   - assets/css/site-polish.css
   - assets/css/experience-v2.css
+  - assets/css/field-studies.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -80,6 +87,7 @@ extra_javascript:
   - assets/js/content-sanitizer.js
   - assets/js/site-polish.js
   - assets/js/experience-v2.js
+  - assets/js/field-studies.js
 
 markdown_extensions:
   - admonition
