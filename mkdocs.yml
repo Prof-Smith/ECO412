@@ -127,6 +127,7 @@ extra_css:
   - assets/css/full-course-integration.cs
   - assets/css/adaptive-species-expanded.css
   - assets/css/home-course-map.css
+  - assets/css/header-refine.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
