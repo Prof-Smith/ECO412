@@ -95,12 +95,18 @@ nav:
 
   - Field Studies:
       - Overview: field-studies/index.md
-      - Module 1 Field Study: field-studies/module-1.md
-      - Module 2 Field Study: field-studies/module-2.md
-      - Module 3 Field Study: field-studies/module-3.md
+      - Module 1: field-studies/module-1.md
+      - Module 2: field-studies/module-2.md
+      - Module 3: field-studies/module-3.md
+      - Module 4: field-studies/module-4.md
+      - Module 5: field-studies/module-5.md
+      - Module 6: field-studies/module-6.md
+      - Module 7: field-studies/module-7.md
+      - Module 8 Evidence Plan: field-studies/module-8.md
 
   - Adaptive Species Lens:
       - Overview: adaptive-species/index.md
+      - Modules 1–8: adaptive-species/module-lenses.md
       - Decision Journal: adaptive-species/decision-journal.md
 
   - Class Research Hub: research-hub/index.md
@@ -122,6 +128,7 @@ extra_css:
   - assets/css/module6.css
   - assets/js/modules78.js
   - assets/css/module8-audit.css
+  - assets/css/full-course-integration.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -144,6 +151,7 @@ extra_javascript:
   - assets/js/module6.js
   - assets/js/modules78.js
   - assets/js/module8-audit.js
+  - assets/js/full-course-integration.js
 
 markdown_extensions:
   - admonition
