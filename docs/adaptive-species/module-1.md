@@ -1,52 +1,63 @@
-# Module 1 Lens: From Error to Environmental Fit
+# Adaptive Species Analysis Guide
 
-<div class="m1as-hero">
-  <p class="m1fs-kicker">THE ADAPTIVE SPECIES • MODULE 1</p>
-  <h1>Do not stop at the departure.</h1>
-  <p>The Standard Economic Model gives us a benchmark. The Adaptive Species Lens asks what the observed response fits, what function it may serve, and what evidence would require a different explanation.</p>
+<div class="m1c-hero m1c-adapt">
+  <p class="m1c-kicker">MODULE 1 • INTERPRETIVE SCAFFOLD</p>
+  <h1>Use the lens inside the case study.</h1>
+  <p>The Adaptive Species Lens is not a separate assignment and not another field study. It is the framework used to interpret one lab result and one field observation in the Model Diagnostic Case Study.</p>
 </div>
 
-## How to use this lens
+## Where this fits
 
-Apply the five steps to **one Module 1 laboratory result or one Choice Architecture Walk observation**.
-
-<div class="m1as-sequence">
-  <article><b>01</b><small>PRINCIPLE</small><h3>State the benchmark</h3><p>Identify the relevant SEM assumption and write its prediction for this decision.</p><div><strong>Sentence stem:</strong> If choice is context independent, then…</div></article>
-  <article><b>02</b><small>DISSENT</small><h3>Describe the challenge</h3><p>Report the observed pattern without calling the decision-maker irrational.</p><div><strong>Sentence stem:</strong> Under this condition, the observed response differed because…</div></article>
-  <article><b>03</b><small>REVERSAL</small><h3>Identify possible function</h3><p>Ask what problem the response or environmental feature may solve.</p><div><strong>Sentence stem:</strong> This shortcut may be useful when…</div></article>
-  <article><b>04</b><small>MISMATCH</small><h3>Locate the failure</h3><p>Explain when the same strategy or design could become costly or misleading.</p><div><strong>Sentence stem:</strong> The fit may break when…</div></article>
-  <article><b>05</b><small>REVISION</small><h3>Make the account answerable</h3><p>State evidence that would weaken the preferred explanation.</p><div><strong>Sentence stem:</strong> I would revise this interpretation if…</div></article>
+<div class="m1c-lensflow">
+  <article><small>EVIDENCE 1</small><h3>Human or Econ? Lab</h3><p>Provides a controlled classroom pattern.</p></article>
+  <article><small>EVIDENCE 2</small><h3>Choice Architecture Walk</h3><p>Provides one bounded observation from a real setting.</p></article>
+  <article><small>INTERPRETATION</small><h3>Adaptive Species Lens</h3><p>Explains possible function, mismatch, and revision.</p></article>
+  <article><small>SUBMISSION</small><h3>Model Diagnostic Case Study</h3><p>Integrates the evidence and interpretation.</p></article>
 </div>
 
-## Worked example: the decoy effect
+<div class="m1c-callout"><strong>Your task on this page:</strong> Complete the five-question planning worksheet below. Transfer the resulting analysis into Sections 6 and 8 of the Model Diagnostic Case Study. Nothing is submitted directly from this page.</div>
 
-<div class="m1as-worked">
-  <section><strong>Principle</strong><p>Adding a dominated option should not change the ranking of the original alternatives.</p></section>
-  <section><strong>Dissent</strong><p>Selection of the print-plus-online bundle may increase after a print-only option is added at the same price.</p></section>
-  <section><strong>Reversal</strong><p>Relative comparison may reduce the effort required to evaluate an unfamiliar bundle.</p></section>
-  <section><strong>Mismatch</strong><p>The shortcut may become costly when a seller intentionally constructs comparisons that make an expensive option appear attractive.</p></section>
-  <section><strong>Revision</strong><p>The interpretation would weaken if the response shift disappeared when choices involved real payment or when option order was changed.</p></section>
+## Five-question planning worksheet
+
+<div class="m1c-lens">
+  <article><b>01</b><small>PRINCIPLE</small><h3>What does the benchmark predict?</h3><p>Name the relevant SEM assumption and prediction.</p><div><strong>Sentence stem:</strong> If choice is context independent, then…</div></article>
+  <article><b>02</b><small>DISSENT</small><h3>What does the evidence challenge?</h3><p>Describe the lab result or field observation without labeling a person irrational.</p><div><strong>Sentence stem:</strong> Under this condition, the observed response differed because…</div></article>
+  <article><b>03</b><small>REVERSAL</small><h3>What useful function could the response serve?</h3><p>Identify the search, information, coordination, or commitment problem that may be reduced.</p><div><strong>Sentence stem:</strong> This shortcut or design may be useful when…</div></article>
+  <article><b>04</b><small>MISMATCH</small><h3>When could the same fit become costly?</h3><p>Identify hidden costs, obsolete defaults, manipulation, or loss of autonomy.</p><div><strong>Sentence stem:</strong> The fit may break when…</div></article>
+  <article><b>05</b><small>REVISION</small><h3>What evidence would change the interpretation?</h3><p>State a comparison or result that could favor the alternative explanation.</p><div><strong>Sentence stem:</strong> I would revise this interpretation if…</div></article>
 </div>
 
-## Apply the lens to the field study
+## Worked example: preselected campus option
 
-Use the Choice Architecture Walk record to answer:
-
-- Which SEM assumption is most relevant?
-- Which visible feature changes the comparison or effort required?
-- What useful function might the feature serve?
-- Who benefits from the reduced search or processing cost?
-- Who could bear a hidden cost?
-- What alternative explanation competes with the behavioral account?
-- What observation would require revision?
-
-## Contribution to the Model Diagnostic Brief
-
-The Adaptive Species Lens supplies the final two sections of the brief:
-
-<div class="m1as-brief">
-  <article><small>SECTION 5</small><h3>Adaptive fit</h3><p>Explain the possible function of the response and the conditions under which the fit becomes a mismatch.</p></article>
-  <article><small>SECTION 6</small><h3>Revision trigger</h3><p>Identify evidence that would weaken the explanation, support the competing account, or require a new model.</p></article>
+<div class="m1c-worked">
+  <section><strong>Principle</strong><p>A context-independent decision-maker evaluates the available options rather than treating the preselected option as informative.</p></section>
+  <section><strong>Dissent</strong><p>The preselected option is easier to complete and may receive more attention.</p></section>
+  <section><strong>Reversal</strong><p>A reliable default can reduce search and administrative effort when most users benefit from the recommended path.</p></section>
+  <section><strong>Mismatch</strong><p>The default may become costly when circumstances differ across users, alternatives are obscured, or the recommendation becomes outdated.</p></section>
+  <section><strong>Revision</strong><p>The default-effect interpretation would weaken if selections remained similar after removing the preselection or if workflow requirements fully explained the ordering.</p></section>
 </div>
 
-<div class="m1fs-boundary"><strong>Interpretive boundary:</strong> Adaptive does not mean optimal, desirable, conscious, universal, or currently beneficial. It means that the response may have been useful under identifiable conditions.</div>
+## What goes into the case study
+
+### Section 6: Adaptive Species analysis
+
+Write one integrated paragraph that explains:
+
+- The problem the shortcut or design may solve
+- The information and constraints present in the environment
+- The possible benefit
+- The point at which the fit becomes a mismatch
+- Who may bear the hidden cost
+
+### Section 8: Evaluation and revision trigger
+
+Write one paragraph that identifies:
+
+- A credible comparison condition
+- The outcome that should be measured
+- Evidence that would weaken the preferred mechanism
+- Evidence that would favor the alternative explanation
+
+<div class="m1c-warning"><strong>Interpretive boundary:</strong> Adaptive does not mean optimal, desirable, conscious, universal, or currently beneficial.</div>
+
+<a class="md-button md-button--primary" href="../../module-1/case-study/">Return to the Model Diagnostic Case Study</a>
