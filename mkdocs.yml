@@ -62,6 +62,14 @@ nav:
       - Case Study: module-4/case-study.md
       - Rubric: module-4/rubric.md
 
+  - Module 5:
+      - Overview: module-5/index.md
+      - Judgment Under Uncertainty Lab: module-5/lab.md
+      - Student Guide: module-5/student-guide.md
+      - Instructor Guide: module-5/instructor-guide.md
+      - Case Study: module-5/case-study.md
+      - Rubric: module-5/rubric.md
+
   - Field Studies:
       - Overview: field-studies/index.md
       - Module 1 Field Study: field-studies/module-1.md
@@ -87,6 +95,7 @@ extra_css:
   - assets/css/field-study-integration.css
   - assets/js/adaptive-species.js
   - assets/css/module4.css
+  - assets/css/module5.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -105,6 +114,7 @@ extra_javascript:
   - assets/js/field-studies.js
   - assets/js/field-study-integration.js
   - assets/js/module4.js
+  - assets/js/module5.js
 
 markdown_extensions:
   - admonition
