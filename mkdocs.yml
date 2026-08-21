@@ -93,20 +93,16 @@ nav:
       - Instructor Guide: module-8/instructor-guide.md
       - Rubric: module-8/rubric.md
 
-  - Field Studies:
-      - Overview: field-studies/index.md
-      - Module 1: field-studies/module-1.md
-      - Module 2: field-studies/module-2.md
-      - Module 3: field-studies/module-3.md
-      - Module 4: field-studies/module-4.md
-      - Module 5: field-studies/module-5.md
-      - Module 6: field-studies/module-6.md
-      - Module 7: field-studies/module-7.md
-      - Module 8 Evidence Plan: field-studies/module-8.md
-
   - Adaptive Species Lens:
       - Overview: adaptive-species/index.md
-      - Modules 1–8: adaptive-species/module-lenses.md
+      - Module 1 - From Error to Fit: adaptive-species/module-1.md
+      - Module 2 - Ideas Under Selection: adaptive-species/module-2.md
+      - Module 3 - Experience Becomes Story: adaptive-species/module-3.md
+      - Module 4 - Trust as Environmental Memory: adaptive-species/module-4.md
+      - Module 5 - Signal, Noise, and Confidence: adaptive-species/module-5.md
+      - Module 6 - Commitment Architecture: adaptive-species/module-6.md
+      - Module 7 - Adaptive Agents: adaptive-species/module-7.md
+      - Module 8 - Prepared Systems: adaptive-species/module-8.md
       - Decision Journal: adaptive-species/decision-journal.md
 
   - Class Research Hub: research-hub/index.md
@@ -128,7 +124,8 @@ extra_css:
   - assets/css/module6.css
   - assets/js/modules78.js
   - assets/css/module8-audit.css
-  - assets/css/full-course-integration.css
+  - assets/css/full-course-integration.cs
+  - assets/css/adaptive-species-expanded.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
