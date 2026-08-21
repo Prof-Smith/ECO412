@@ -1,0 +1,16 @@
+(function(){'use strict';
+const KEY='eco412_m1_choice_architecture_walk';const $=id=>document.getElementById(id);let record=null;
+const fields=['setting','moment','feature','evidence','action','alternative','limitation','redesign'];
+function read(){const d={};for(const k of fields)d[k]=($('m1fs-'+k)?.value||'').trim();return d}
+function missing(d){return fields.filter(k=>!d[k])}
+function save(d){record=d;localStorage.setItem(KEY,JSON.stringify(d))}
+function msg(text,ok=false){const e=$('m1fs-message');if(!e)return;e.hidden=false;e.className='m1fs-message'+(ok?' ok':'');e.textContent=text}
+function preview(d){const p=$('m1fs-preview');p.hidden=false;p.innerHTML=`<h3>Field-note scaffold</h3><section><strong>Setting and decision moment</strong><p>${d.setting}. ${d.moment}</p></section><section><strong>Observable architecture</strong><p>${d.feature}: ${d.evidence}</p></section><section><strong>Behavior facilitated</strong><p>${d.action}</p></section><section><strong>Alternative explanation</strong><p>${d.alternative}</p></section><section><strong>Evidence limitation</strong><p>${d.limitation}</p></section><section><strong>Responsible redesign</strong><p>${d.redesign}</p></section>`;p.scrollIntoView({behavior:'smooth',block:'nearest'})}
+function build(){const d=read(),m=missing(d);if(m.length)return msg('Complete every observation field before building the field note.');save(d);preview(d);msg('Field-study record saved on this device. Review the scaffold, then export both files.',true)}
+function get(){if(record)return record;try{return JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){return null}}
+function download(name,text,type){const b=new Blob([text],{type}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),300)}
+function exportJSON(){const d=get();if(!d)return msg('Build the field note before exporting.');download('eco412-module1-choice-architecture-record.json',JSON.stringify({course:'ECO 412',module:1,artifact:'Choice Architecture Walk',schemaVersion:'1.0',exportedAt:new Date().toISOString(),payload:d},null,2),'application/json')}
+function exportMarkdown(){const d=get();if(!d)return msg('Build the field note before exporting.');const t=`# Choice Architecture Field Note\n\n## Setting and decision moment\n${d.setting}. ${d.moment}\n\n## Observable architecture\n**${d.feature}.** ${d.evidence}\n\n## Behavior facilitated\n${d.action}\n\n## Behavioral interpretation\n[Explain the mechanism using Module 1 concepts.]\n\n## Alternative explanation\n${d.alternative}\n\n## Adaptive benefit and possible mismatch\n[Explain the useful function and where the fit may break.]\n\n## Evidence limitation and revision trigger\n${d.limitation}\n\n[State what evidence would change the interpretation.]\n\n## Responsible redesign\n${d.redesign}\n`;download('eco412-module1-choice-architecture-field-note.md',t,'text/markdown')}
+function restore(){let d;try{d=JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){}if(!d)return;for(const k of fields){const e=$('m1fs-'+k);if(e)e.value=d[k]||''}record=d}
+window.M1Field={build,exportJSON,exportMarkdown};document.addEventListener('DOMContentLoaded',restore);if(typeof document$!=='undefined'&&document$?.subscribe)document$.subscribe(restore)
+})();
