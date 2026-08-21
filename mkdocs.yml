@@ -31,10 +31,10 @@ nav:
 
   - Module 1:
       - Overview: module-1/index.md
+      - Assessment Path: module-1/assessment-path.md
       - Interactive Lab: module-1/lab.md
-      - Student Guide: module-1/student-guide.md
-      - Instructor Guide: module-1/instructor-guide.md
-      - Case Study: module-1/case-study.md
+      - Field Study - Choice Architecture Walk: field-studies/module-1.md
+      - SUBMIT - Model Diagnostic Case Study: module-1/case-study.md
       - Rubric: module-1/rubric.md
 
   - Module 2:
