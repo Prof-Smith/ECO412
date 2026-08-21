@@ -131,6 +131,7 @@ extra_css:
   - assets/css/module1-field-adaptive-fix.css
   - assets/css/module1-assignment-clarity.css
   - assets/css/module1-one-assignment.css
+  - assets/css/module1-integrated-adaptive-lens.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -159,6 +160,7 @@ extra_javascript:
   - assets/js/module1-field-clarity.js
   - assets/js/module1-overview-clarity.js
   - assets/js/module1-one-assignment.js
+  - assets/js/module1-integrated-adaptive-lens.js
 
 markdown_extensions:
   - admonition
