@@ -54,6 +54,14 @@ nav:
       - Case Study: module-3/case-study.md
       - Rubric: module-3/rubric.md
 
+   - Module 4:
+      - Overview: module-4/index.md
+      - Belief Under Influence Lab: module-4/lab.md
+      - Student Guide: module-4/student-guide.md
+      - Instructor Guide: module-4/instructor-guide.md
+      - Case Study: module-4/case-study.md
+      - Rubric: module-4/rubric.md
+
   - Field Studies:
       - Overview: field-studies/index.md
       - Module 1 Field Study: field-studies/module-1.md
@@ -78,6 +86,7 @@ extra_css:
   - assets/css/field-studies.css
   - assets/css/field-study-integration.css
   - assets/js/adaptive-species.js
+  - assets/css/module4.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -95,6 +104,7 @@ extra_javascript:
   - assets/js/experience-v2.js
   - assets/js/field-studies.js
   - assets/js/field-study-integration.js
+  - assets/js/module4.js
 
 markdown_extensions:
   - admonition
