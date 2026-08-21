@@ -1,37 +1,30 @@
 # The Adaptive Species Lens
 
-<div class="adaptive-hero">
-  <div>
-    <p class="adaptive-kicker">AUTHOR'S LENS • ECO 412</p>
-    <h1>Do not stop at the bias.</h1>
-    <p>Ask what problem the behavior was trying to solve, what environment shaped it, and whether that environment has changed.</p>
-  </div>
-  <div class="adaptive-questions">
-    <strong>Five adaptive questions</strong>
-    <span>What was the selection pressure?</span>
-    <span>What information was available?</span>
-    <span>How should beliefs have been updated?</span>
-    <span>What strategic incentives were operating?</span>
-    <span>Which shortcut helped first, then misfired?</span>
-  </div>
+<div class="asl-home-hero"><small>AUTHOR'S FRAMEWORK • ECO 412</small><h1>Do not stop at the bias.</h1><p>Behavioral economics identifies systematic departures from idealized choice. The adaptive lens asks what problem the behavior was solving, what environment shaped it, when the fit breaks, and what evidence should require revision.</p></div>
+
+## The course-wide diagnostic
+
+<div class="asl-diagnostic">
+  <article><b>1</b><h3>Principle</h3><p>What does the benchmark predict?</p></article>
+  <article><b>2</b><h3>Dissent</h3><p>What does the evidence challenge?</p></article>
+  <article><b>3</b><h3>Reversal</h3><p>When might the departure be adaptive?</p></article>
+  <article><b>4</b><h3>Environment</h3><p>Which cues, constraints, and incentives matter?</p></article>
+  <article><b>5</b><h3>Revision</h3><p>What evidence should change the model?</p></article>
 </div>
 
-## Principle, dissent, reversal
+## Module lenses
 
-<div class="adaptive-triad">
-  <article><small>PRINCIPLE</small><h2>Begin with the benchmark.</h2><p>State what the formal model predicts and why the prediction is analytically useful.</p></article>
-  <article><small>DISSENT</small><h2>Interrogate the evidence.</h2><p>Identify where observed behavior challenges the benchmark, including measurement and design limits.</p></article>
-  <article><small>REVERSAL</small><h2>Diagnose environmental fit.</h2><p>Ask whether the apparent error may be a useful adaptation operating in the wrong context.</p></article>
+<div class="asl-module-grid">
+  <a href="module-1/"><b>01</b><span><strong>From Error to Fit</strong>Rational benchmark and adaptive diagnosis</span></a>
+  <a href="module-2/"><b>02</b><span><strong>Ideas Under Selection</strong>Experiment, replication, and revision</span></a>
+  <a href="module-3/"><b>03</b><span><strong>Experience Becomes Story</strong>Prediction, utility, and memory</span></a>
+  <a href="module-4/"><b>04</b><span><strong>Trust as Environmental Memory</strong>Skepticism and exchange</span></a>
+  <a href="module-5/"><b>05</b><span><strong>Signal, Noise, and Confidence</strong>Patterns under uncertainty</span></a>
+  <a href="module-6/"><b>06</b><span><strong>Commitment Architecture</strong>Mental accounts and ownership</span></a>
+  <a href="module-7/"><b>07</b><span><strong>Adaptive Agents</strong>Games, norms, and institutions</span></a>
+  <a href="module-8/"><b>08</b><span><strong>Prepared Systems</strong>Intervention, feedback, and revision</span></a>
 </div>
 
-## Course connection
+## The central claim
 
-<div class="adaptive-course-map">
-  <a href="../module-1/"><strong>Module 1</strong><span>What model of humanity are we using?</span></a>
-  <a href="../module-2/"><strong>Module 2</strong><span>How do we test and revise that model?</span></a>
-  <a href="../module-3/"><strong>Module 3</strong><span>What if preference is partly constructed?</span></a>
-</div>
-
-## The adaptive standard
-
-A behavioral observation is not the end of analysis. The adaptive standard asks students to describe the benchmark, evaluate the evidence, identify the environment, and specify what would justify revision. The goal is neither to defend every shortcut nor to label every departure irrational. The goal is disciplined diagnosis.
+Humans are neither perfect optimizers nor merely defective decision-makers. Humans are bounded, emotional, social, adaptive organisms using inherited and learned tools in environments that change. The educational task is therefore not simply to identify mistakes. It is to develop judgment that can diagnose fit, preserve useful functions, recognize mismatch, and update responsibly.
