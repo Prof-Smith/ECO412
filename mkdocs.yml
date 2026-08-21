@@ -121,6 +121,7 @@ extra_css:
   - assets/css/module5.css
   - assets/css/module6.css
   - assets/js/modules78.js
+  - assets/css/module8-audit.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -141,6 +142,8 @@ extra_javascript:
   - assets/js/module4.js
   - assets/js/module5.js
   - assets/js/module6.js
+  - assets/js/modules78.js
+  - assets/js/module8-audit.js
 
 markdown_extensions:
   - admonition
