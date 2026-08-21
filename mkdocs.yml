@@ -60,6 +60,10 @@ nav:
       - Module 2 Field Study: field-studies/module-2.md
       - Module 3 Field Study: field-studies/module-3.md
 
+    - Adaptive Species Lens:
+      - Overview: adaptive-species/index.md
+      - Decision Journal: adaptive-species/decision-journal.md
+
   - Class Research Hub: research-hub/index.md
 
 extra_css:
@@ -73,6 +77,7 @@ extra_css:
   - assets/css/experience-v2.css
   - assets/css/field-studies.css
   - assets/css/field-study-integration.css
+  - assets/js/adaptive-species.js
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
