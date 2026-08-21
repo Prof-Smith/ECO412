@@ -1,15 +1,41 @@
 # Module 8: Behavioral Insights Capstone
 
-<div class="m8-hero"><div><p class="m8-kicker">ECO 412 • MODULE 8</p><h1>From Behavioral Insight to Responsible Intervention</h1><p>Integrate theory, field observation, experimental design, evidence, adaptive diagnosis, and professional communication into one portfolio-ready project.</p><div class="m8-actions"><a href="studio/">Open Capstone Studio</a><a href="brief/">View Project Brief</a></div></div><div class="m8-signals"><span><b>1</b><strong>Diagnose</strong>Define behavior and environment.</span><span><b>2</b><strong>Design</strong>Build a credible test.</span><span><b>3</b><strong>Deliver</strong>Recommend and communicate.</span></div></div>
+<div class="cap-hero">
+  <div>
+    <p class="cap-kicker">ECO 412 • MODULE 8</p>
+    <h1>Diagnose.<br>Design.<br>Defend.</h1>
+    <p class="cap-lead">Turn a bounded decision problem into an evidence-informed, responsible behavioral intervention and a portfolio-ready professional recommendation.</p>
+    <div class="cap-actions"><a class="cap-primary" href="studio/">Open Capstone Studio</a><a href="brief/">Read Project Brief</a></div>
+  </div>
+  <div class="cap-hero-panel">
+    <small>THE FINAL ARGUMENT</small>
+    <strong>Behavior is produced by a person interacting with an environment.</strong>
+    <span>The capstone must diagnose both, test alternative explanations, and redesign the environment without overstating the evidence.</span>
+  </div>
+</div>
 
-<div class="m8-question"><small>CAPSTONE CHALLENGE</small><strong>How can behavioral economics improve a real decision environment without overstating evidence or undermining autonomy?</strong></div>
+<div class="cap-question"><small>CAPSTONE CHALLENGE</small><strong>How can behavioral economics improve a real decision environment while preserving autonomy, transparency, and scientific humility?</strong></div>
 
-## Capstone components
+## One project, six decisions
 
-<div class="m8-grid"><article><small>01</small><h3>Behavioral Problem</h3><p>Define observable behavior, decision context, affected stakeholders, and practical importance.</p></article><article><small>02</small><h3>Evidence Review</h3><p>Connect at least three course mechanisms and distinguish phenomenon from explanation.</p></article><article><small>03</small><h3>Field Diagnosis</h3><p>Use low-cost observation, existing data, or a structured self-study.</p></article><article><small>04</small><h3>Intervention</h3><p>Design a transparent, proportionate, autonomy-preserving change.</p></article><article><small>05</small><h3>Evaluation</h3><p>Specify treatment, comparison, outcome, sample, uncertainty, ethics, and revision trigger.</p></article><article><small>06</small><h3>Professional Delivery</h3><p>Produce a brief, evidence exhibit, implementation plan, and presentation.</p></article></div>
+<div class="cap-roadmap">
+  <article><b>01</b><small>FRAME</small><h3>What exactly is happening?</h3><p>Define one observable behavior in one bounded environment.</p></article>
+  <article><b>02</b><small>EXPLAIN</small><h3>Why might it be happening?</h3><p>Compare mechanisms instead of naming a bias and stopping.</p></article>
+  <article><b>03</b><small>EVIDENCE</small><h3>What do we actually know?</h3><p>Use ethical field evidence and state the strongest limitation.</p></article>
+  <article><b>04</b><small>DESIGN</small><h3>What should change?</h3><p>Create a transparent, proportionate intervention prototype.</p></article>
+  <article><b>05</b><small>EVALUATE</small><h3>How would we learn?</h3><p>Preregister the comparison, outcome, sample, and revision trigger.</p></article>
+  <article><b>06</b><small>DELIVER</small><h3>Can a decision-maker use it?</h3><p>Translate analysis into a concise brief, exhibit, and presentation.</p></article>
+</div>
 
-## Learning outcomes
+## What students submit
 
-Students will synthesize behavioral theory, research design, field evidence, adaptive analysis, game structure, responsible intervention, and professional communication.
+<div class="cap-deliverables">
+  <div><span>01</span><strong>Executive Brief</strong><small>1,500–2,000 words</small></div>
+  <div><span>02</span><strong>Diagnosis Map</strong><small>Mechanism, evidence, alternative</small></div>
+  <div><span>03</span><strong>Evidence Exhibit</strong><small>One original visual with limitations</small></div>
+  <div><span>04</span><strong>Intervention Prototype</strong><small>Decision-ready representation</small></div>
+  <div><span>05</span><strong>Evaluation Plan</strong><small>Preregistered test and safeguards</small></div>
+  <div><span>06</span><strong>Professional Presentation</strong><small>Recommendation for a stakeholder</small></div>
+</div>
 
-<div class="m8-next"><span>NEXT STEP</span><strong>Select a decision environment and complete the Capstone Studio</strong><a href="studio/">Continue →</a></div>
+<div class="cap-next"><div><small>START HERE</small><strong>Define one behavior, not a broad social problem.</strong></div><a href="studio/">Build the project →</a></div>
