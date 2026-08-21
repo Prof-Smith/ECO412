@@ -78,6 +78,21 @@ nav:
       - Case Study: module-6/case-study.md
       - Rubric: module-6/rubric.md
 
+    - Module 7:
+      - Overview: module-7/index.md
+      - Behavioral Game Theory Lab: module-7/lab.md
+      - Student Guide: module-7/student-guide.md
+      - Instructor Guide: module-7/instructor-guide.md
+      - Case Study: module-7/case-study.md
+      - Rubric: module-7/rubric.md
+
+  - Module 8:
+      - Overview: module-8/index.md
+      - Capstone Studio: module-8/studio.md
+      - Project Brief: module-8/brief.md
+      - Instructor Guide: module-8/instructor-guide.md
+      - Rubric: module-8/rubric.md
+
   - Field Studies:
       - Overview: field-studies/index.md
       - Module 1 Field Study: field-studies/module-1.md
@@ -105,6 +120,7 @@ extra_css:
   - assets/css/module4.css
   - assets/css/module5.css
   - assets/css/module6.css
+  - assets/js/modules78.js
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
