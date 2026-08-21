@@ -70,6 +70,14 @@ nav:
       - Case Study: module-5/case-study.md
       - Rubric: module-5/rubric.md
 
+  - Module 6:
+      - Overview: module-6/index.md
+      - Mental Accounting Lab: module-6/lab.md
+      - Student Guide: module-6/student-guide.md
+      - Instructor Guide: module-6/instructor-guide.md
+      - Case Study: module-6/case-study.md
+      - Rubric: module-6/rubric.md
+
   - Field Studies:
       - Overview: field-studies/index.md
       - Module 1 Field Study: field-studies/module-1.md
@@ -96,6 +104,7 @@ extra_css:
   - assets/js/adaptive-species.js
   - assets/css/module4.css
   - assets/css/module5.css
+  - assets/css/module6.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -115,6 +124,7 @@ extra_javascript:
   - assets/js/field-study-integration.js
   - assets/js/module4.js
   - assets/js/module5.js
+  - assets/js/module6.js
 
 markdown_extensions:
   - admonition
