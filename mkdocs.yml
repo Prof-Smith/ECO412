@@ -129,6 +129,7 @@ extra_css:
   - assets/css/home-course-map.css
   - assets/css/header-refine.css
   - assets/css/module1-field-adaptive-fix.css
+  - assets/css/module1-assignment-clarity.css
 
 extra_javascript:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
@@ -154,6 +155,8 @@ extra_javascript:
   - assets/js/full-course-integration.js
   - assets/js/module1-field-study.js
   - assets/js/module1-route-fix.js
+  - assets/js/module1-field-clarity.js
+  - assets/js/module1-overview-clarity.js
 
 markdown_extensions:
   - admonition
