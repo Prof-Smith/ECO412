@@ -78,7 +78,7 @@ nav:
       - Case Study: module-6/case-study.md
       - Rubric: module-6/rubric.md
 
-    - Module 7:
+  - Module 7:
       - Overview: module-7/index.md
       - Behavioral Game Theory Lab: module-7/lab.md
       - Student Guide: module-7/student-guide.md
@@ -86,7 +86,7 @@ nav:
       - Case Study: module-7/case-study.md
       - Rubric: module-7/rubric.md
 
-   - Module 8:
+  - Module 8:
       - Overview: module-8/index.md
       - Capstone Studio: module-8/studio.md
       - Project Brief: module-8/brief.md
