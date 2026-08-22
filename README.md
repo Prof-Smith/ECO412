@@ -1,29 +1,35 @@
-# ECO 412 Behavioral Economics Lab
+# Global Crisis Room: Incremental Metrics Edition
 
-A static, privacy-conscious MkDocs Material site for the Module 1 laboratory, **Human or Econ? Testing the Standard Economic Model**.
+## What changed
 
-## Local preview
+Each team now sees six metrics at every stage: wealth, liquidity, risk, reputation, hedge coverage, and survival. Selecting a decision immediately applies its visible cost or benefit. Revealing the crisis then shows the shock-specific change. Team cards preserve a compact wealth history across rounds, and the cumulative leaderboard updates after every step.
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-mkdocs serve
-```
+## Deploy to GitHub Pages
 
-Open `http://127.0.0.1:8000`.
+1. Unzip the package.
+2. Upload `index.html`, `style.css`, and `app.js` to the root of your GitHub repository.
+3. In GitHub, open **Settings > Pages**.
+4. Choose **Deploy from a branch**.
+5. Select `main` and `/ (root)`, then save.
+6. Open the Pages address GitHub displays.
 
-## GitHub Pages deployment
+## Classroom workflow
 
-1. Replace `YOUR-GITHUB-USERNAME` and the repository slug in `mkdocs.yml`.
-2. Push the full folder to the default branch of a GitHub repository.
-3. In GitHub, open **Settings > Pages** and set **Source** to **GitHub Actions**.
-4. The included workflow builds and deploys the site on each push to `main`.
+1. Select the course lens.
+2. Add one record per team.
+3. Before a decision, discuss each team's opening metrics.
+4. Select a decision. The team card immediately shows the strategic cost or benefit.
+5. After all teams decide, reveal the shock.
+6. Compare the shock-specific deltas and cumulative leaderboard.
+7. Advance through four rounds and use the final course-specific debrief.
 
-## Data model
+## Important limitation
 
-Student responses stay in the browser's `localStorage`. They are not collected centrally. Students may export a JSON record and a printable report. Clearing site data resets the lab.
+This is still the facilitator-led edition. It uses browser local storage, so records persist on the same browser and device. Separate student phones do not synchronize with the instructor dashboard.
 
-## Important instructional note
+## Files
 
-The “Econ score” is a classroom diagnostic, not a validated psychological assessment. It indicates alignment with selected Standard Economic Model predictions in this activity only.
+- `index.html`: simulation interface
+- `style.css`: responsive visual design
+- `app.js`: state, scoring, incremental metrics, history, and CSV export
+- `INSTRUCTOR_GUIDE.md`: facilitation notes
