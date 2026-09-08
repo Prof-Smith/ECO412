@@ -1,26 +1,56 @@
-# Module 1 Lab with integrated Choice Architecture Walk
+# ECO 412 Module 1 complete replacement package
 
-Upload:
-- `docs/assets/css/module1-lab-choice-walk.css`
-- `docs/assets/js/module1-lab-choice-walk.js`
+This is a complete replacement, not an incremental injector.
 
-Add as the final entries in `mkdocs.yml`:
+Copy the package's `docs` folder into the repository. Replace:
+- `docs/module-1/index.md`
+- `docs/module-1/lab.md`
+- `docs/module-1/case-study.md`
+
+Add:
+- `docs/assets/css/module1-complete-lab.css`
+- `docs/assets/js/module1-complete-lab.js`
+
+Add these as the final entries in `mkdocs.yml`:
 
 ```yaml
 extra_css:
-  - assets/css/module1-lab-choice-walk.css
+  - assets/css/module1-complete-lab.css
 
 extra_javascript:
-  - assets/js/module1-lab-choice-walk.js
+  - assets/js/module1-complete-lab.js
 ```
 
-The script runs only on `/module-1/lab/`. It inserts the complete Choice Architecture Walk before the lab's Deliverables, Submission, Before Leaving, or Next section. If none is found, the walk is appended to the lab.
+Use this Module 1 navigation:
 
-After installing:
-- Remove the separate Module 1 Field Study item from the Module 1 navigation and Canvas sequence.
-- Keep one graded Canvas item only: `SUBMIT • Module 1 Model Diagnostic Case Study`.
-- The field record is exported from inside the lab and uploaded as supporting evidence with the case study.
+```yaml
+- Module 1:
+    - Overview: module-1/index.md
+    - Complete Human or Econ? Laboratory: module-1/lab.md
+    - SUBMIT - Model Diagnostic Case Study: module-1/case-study.md
+    - Rubric: module-1/rubric.md
+```
 
-The standalone `docs/field-studies/module-1.md` may remain as an instructor reference, but it should not appear in the student Module 1 navigation.
+Remove these student-facing Module 1 navigation entries if present:
+- Field Study - Choice Architecture Walk
+- Adaptive Species Planning Guide
+- Assessment Path
+- Separate lab-record submission
+- Separate field-note submission
+
+Canvas should show one graded submission for Module 1:
+`SUBMIT • Module 1 Model Diagnostic Case Study`
+
+Before deployment, remove or comment out older Module 1-only scripts that injected field-study, deliverables, or Adaptive Species fragments. Recommended removals from `extra_javascript` if present:
+- module1-deliverables.js
+- module1-field-study.js
+- module1-route-fix.js
+- module1-field-clarity.js
+- module1-overview-clarity.js
+- module1-one-assignment.js
+- module1-integrated-adaptive-lens.js
+- module1-lab-choice-walk.js
+
+Also remove their corresponding Module 1-only CSS files to prevent conflicting styles.
 
 Do not upload INSTALL.md.
