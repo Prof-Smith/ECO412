@@ -1,0 +1,12 @@
+Append these paths to the EXISTING lists in mkdocs.yml:
+
+extra_css:
+  - assets/css/choice-architecture-walk.css
+
+extra_javascript:
+  - assets/js/choice-architecture-walk.js
+
+Ensure the navigation path is:
+- Field Study - Choice Architecture Walk: field-studies/module-1.md
+
+Do not add the field-study file under docs/module-1.
